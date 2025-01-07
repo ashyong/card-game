@@ -1,7 +1,7 @@
 Question A:-
 Open Terminal
 1. Clone the repository
-    git clone [your-repository-url]
+    git clone https://github.com/ashyong/card-game.git
     cd card-game
 
 2. Install PHP dependencies
