@@ -6,8 +6,6 @@ Open Terminal
 
 2. Install PHP dependencies
     composer install
-        OR
-    docker-compose exec app composer install
 
 3. Copy environment file
     cp .env.example .env
@@ -22,13 +20,9 @@ Open Terminal
 
 5. Generate application key
     php artisan key:generate
-        OR
-    docker-compose exec app php artisan key:generate  
 
 6. Run database migrations
-    php artisan migrate
-        OR
-    docker-compose exec app php artisan migrate
+    php artisan migrate --seed
 
 Running the Application
 1. Start the Laravel development server
